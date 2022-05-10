@@ -46,3 +46,16 @@ val PHONE_NUMBER =  "010-1111-1111"
 왜? 가독성을 향상시키는 가장 좋은 방법이기 때문에 그렇다
 
 var abc  = (수학 + 영어 + 국어) / 3
+abc
+abc
+abc = 70
+abc
+---> 500라인
+var test_average = (수학 + 영어 + 국어)/3
+test_average
+test_average
+test_average = 70
+test_average
+----> 500 라인
+후자처럼(test_average) 몇년뒤에 봐도 이해할 수 있게 네이밍을 하자.
+네이밍은 나중에 어떤 일이 발생할 지 모르기 때문에 신중하게 해야 한다.
